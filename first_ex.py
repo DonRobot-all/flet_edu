@@ -16,6 +16,7 @@ import time
 #     page.controls.append(t)
 #     page.update()
 
+
 def main(page: ft.Page):
     t = ft.Text()
     page.add(t) # it's a shortcut for page.controls.append(t) and then page.update()
